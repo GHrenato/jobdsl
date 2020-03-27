@@ -4,6 +4,7 @@ multibranchPipelineJob('python-deploy') {
 }
     branchSources {
         git {
+            id("43972896")
             remote('git@github.com:GHrenato/test-jenkins-2.git')
        }
     }
